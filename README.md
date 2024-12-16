@@ -1,2 +1,5 @@
-# Grimorio
-Estarei dando continuidade ao meu curso de Formção JavaScript, mas eu descidi serparar a criação do meu Grimorio separado, pois será reutilizado em meu projeto pessoal do Blog do Dragão Bebado
+# POKEDEX
+Estarei dando continuidade ao meu curso de Formção JavaScript.
+Estarei desenvolvendo o projeto da formação que será uma Pokedex  usando Js, HTML e CSS.
+
+No final deste projeto estarei usando esses conhecimentos para desenvolver um component para atribuir no meu projeto da `Taverna do Dragão Bebado`.
