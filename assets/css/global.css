@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-ol.pokemon-list {
+.pokemon-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -19,7 +19,8 @@ ol.pokemon-list {
     grid-template-columns: 1fr 1fr;
 }
 
-ol.pokemon-list li {
+.pokemon {
+    background-color: #78C850;
     display: flex;
     flex-direction: column;
     margin: .5rem;
@@ -28,9 +29,12 @@ ol.pokemon-list li {
     border-radius: 1rem;
 }
 
-ol.pokemon-list li img {
+.pokemon .details img {
     max-width: 100%;
     max-height: 100px;
     align-self: flex-end;
 }
 
+.pokemon .number {
+    color: black;
+}
