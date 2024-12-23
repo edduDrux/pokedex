@@ -17,7 +17,8 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
-    <link rel="stylesheet" href="/assets/css/pokemons-types.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/pokemon-color.css">
 
     <title>POKEDEX</title>
 
@@ -29,34 +30,18 @@
         
         <h1>POKEDEX</h1>
 
-        <ol class="pokemon-list">
-        
-            <li class="pokemon">
-
-                <span class="number">#001</span>
-                
-                <span class="name">Bulbasaur</span>
-
-                <div class="details">
-
-                    <ol class="types">
-
-                        <li class="type">Grass</li>
-
-                        <li class="type">Poison</li>
-
-                    </ol>
-
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
-               
-                </div>    
-            
-            </li>
-       
+        <ol id="pokemonList" class="pokemons">
+            <!--POKEMONS AQUI -->
         </ol>
+        <div class="pagination">
+            <button id="loadMore" class="load-more">Carregar mais</button>
+        </div>
 
     </section>
 
+    <!-- JS -->
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
     <script src="/assets/js/main.js"></script>
 
 </body>
